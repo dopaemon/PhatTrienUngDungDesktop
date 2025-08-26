@@ -24,6 +24,13 @@ namespace BaiTapThietKeForm
             var nghia = txtNghia.Text;
             listBox1.Items.Add(tu);
             list.Add(nghia);
+
+            txtTuMoi.Focus();
+            txtTuMoi.Text = "";
+            txtNghia.Text = "";
+
+            listBox1.SelectedIndex = listBox1.Items.Count - 1;
+            txtHienThi.Text = nghia;
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
