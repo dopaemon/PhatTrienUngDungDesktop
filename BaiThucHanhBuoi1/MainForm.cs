@@ -16,5 +16,12 @@ namespace BaiThucHanhBuoi1
         {
             InitializeComponent();
         }
+
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+            var tenDaNhap = txtTen.Text;
+
+            MessageBox.Show($"Xin chào bạn {tenDaNhap}. Rất vui được gặp bạn", "Thông điệp chào mừng");
+        }
     }
 }

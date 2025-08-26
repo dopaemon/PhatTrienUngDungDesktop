@@ -57,6 +57,7 @@
             this.btnOK.TabIndex = 2;
             this.btnOK.Text = "Xử lý";
             this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // MainForm
             // 
