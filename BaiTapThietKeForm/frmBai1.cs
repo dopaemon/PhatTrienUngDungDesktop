@@ -34,6 +34,7 @@ namespace BaiTapThietKeForm
 
         private void btnTinhTien_Click(object sender, EventArgs e)
         {
+            if (txtSoLuong.Text == "") { txtSoLuong.Text = "0"; }
             int soTien = int.Parse(txtDonGia.Text) * int.Parse(txtSoLuong.Text);
             lblSoTien.Text = soTien.ToString();
         }
