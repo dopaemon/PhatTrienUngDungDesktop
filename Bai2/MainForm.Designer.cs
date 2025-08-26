@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rdNam = new System.Windows.Forms.RadioButton();
             this.rdNu = new System.Windows.Forms.RadioButton();
+            this.rdNam = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,6 +45,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chọn giới tính";
             // 
+            // rdNu
+            // 
+            this.rdNu.AutoSize = true;
+            this.rdNu.Location = new System.Drawing.Point(29, 57);
+            this.rdNu.Name = "rdNu";
+            this.rdNu.Size = new System.Drawing.Size(39, 17);
+            this.rdNu.TabIndex = 1;
+            this.rdNu.TabStop = true;
+            this.rdNu.Text = "Nữ";
+            this.rdNu.UseVisualStyleBackColor = true;
+            // 
             // rdNam
             // 
             this.rdNam.AutoSize = true;
@@ -56,17 +67,7 @@
             this.rdNam.TabStop = true;
             this.rdNam.Text = "Nam";
             this.rdNam.UseVisualStyleBackColor = true;
-            // 
-            // rdNu
-            // 
-            this.rdNu.AutoSize = true;
-            this.rdNu.Location = new System.Drawing.Point(29, 57);
-            this.rdNu.Name = "rdNu";
-            this.rdNu.Size = new System.Drawing.Size(39, 17);
-            this.rdNu.TabIndex = 1;
-            this.rdNu.TabStop = true;
-            this.rdNu.Text = "Nữ";
-            this.rdNu.UseVisualStyleBackColor = true;
+            this.rdNam.CheckedChanged += new System.EventHandler(this.rdNam_CheckedChanged);
             // 
             // MainForm
             // 
