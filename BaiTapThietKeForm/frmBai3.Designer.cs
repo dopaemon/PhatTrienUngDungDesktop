@@ -54,7 +54,7 @@
             this.label2.Location = new System.Drawing.Point(40, 64);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 13);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 0;
             this.label2.Text = "Nghĩa của từ";
             // 
             // txtTuMoi
@@ -62,21 +62,21 @@
             this.txtTuMoi.Location = new System.Drawing.Point(123, 35);
             this.txtTuMoi.Name = "txtTuMoi";
             this.txtTuMoi.Size = new System.Drawing.Size(157, 20);
-            this.txtTuMoi.TabIndex = 2;
+            this.txtTuMoi.TabIndex = 0;
             // 
             // txtNghia
             // 
             this.txtNghia.Location = new System.Drawing.Point(123, 64);
             this.txtNghia.Name = "txtNghia";
             this.txtNghia.Size = new System.Drawing.Size(157, 20);
-            this.txtNghia.TabIndex = 3;
+            this.txtNghia.TabIndex = 1;
             // 
             // btnThem
             // 
             this.btnThem.Location = new System.Drawing.Point(123, 90);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(75, 23);
-            this.btnThem.TabIndex = 4;
+            this.btnThem.TabIndex = 2;
             this.btnThem.Text = "Thêm từ mới";
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
@@ -87,7 +87,7 @@
             this.label3.Location = new System.Drawing.Point(40, 164);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(111, 13);
-            this.label3.TabIndex = 5;
+            this.label3.TabIndex = 0;
             this.label3.Text = "DANH SÁCH TỪ MỚI";
             // 
             // label4
@@ -96,7 +96,7 @@
             this.label4.Location = new System.Drawing.Point(223, 164);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(86, 13);
-            this.label4.TabIndex = 6;
+            this.label4.TabIndex = 0;
             this.label4.Text = "NGHĨA CỦA TỪ";
             // 
             // listBox1
@@ -105,7 +105,7 @@
             this.listBox1.Location = new System.Drawing.Point(43, 195);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(138, 95);
-            this.listBox1.TabIndex = 7;
+            this.listBox1.TabIndex = 3;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // txtHienThi
@@ -115,7 +115,7 @@
             this.txtHienThi.Name = "txtHienThi";
             this.txtHienThi.ReadOnly = true;
             this.txtHienThi.Size = new System.Drawing.Size(138, 95);
-            this.txtHienThi.TabIndex = 8;
+            this.txtHienThi.TabIndex = 4;
             // 
             // frmBai3
             // 
