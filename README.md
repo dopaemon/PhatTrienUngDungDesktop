@@ -1,6 +1,7 @@
 # PhatTrienUngDungDesktop
 ## Bài tập (Nhiều Branch) + Release
 * [**BaiTapThucHanhBuoi1**](https://github.com/dopaemon/PhatTrienUngDungDesktop/tree/BaiThucHanhBuoi1)
+* [**BaiTapThietKeForm**](https://github.com/dopaemon/PhatTrienUngDungDesktop/tree/BaiTapThietKeForm)
 
 * [**Release**](https://github.com/dopaemon/PhatTrienUngDungDesktop/releases)
 
