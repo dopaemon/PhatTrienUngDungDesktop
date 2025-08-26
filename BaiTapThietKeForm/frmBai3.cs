@@ -12,9 +12,17 @@ namespace BaiTapThietKeForm
 {
     public partial class frmBai3 : Form
     {
+        List<string> list = new List<string>();
         public frmBai3()
         {
             InitializeComponent();
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            var tu = txtTuMoi.Text;
+            listBox1.Items.Add(tu);
+            list.Add(tu);
         }
     }
 }
