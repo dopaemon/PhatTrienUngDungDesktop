@@ -123,6 +123,7 @@
             this.btnBoHang.TabIndex = 3;
             this.btnBoHang.Text = "< Bỏ hàng";
             this.btnBoHang.UseVisualStyleBackColor = true;
+            this.btnBoHang.Click += new System.EventHandler(this.btnBoHang_Click);
             // 
             // btnTinhTien
             // 

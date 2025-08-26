@@ -22,5 +22,10 @@ namespace BaiTapThietKeForm
             var item = listBox1.SelectedItem;
             listBox2.Items.Add(item);
         }
+
+        private void btnBoHang_Click(object sender, EventArgs e)
+        {
+            listBox2.Items.Remove(listBox2.SelectedItem);
+        }
     }
 }
