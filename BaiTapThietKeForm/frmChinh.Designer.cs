@@ -1,6 +1,6 @@
 ﻿namespace BaiTapThietKeForm
 {
-    partial class Form1
+    partial class frmChinh
     {
         /// <summary>
         /// Required designer variable.
@@ -30,9 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.trầnNguyễnTuấnAnhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiBai3 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiBai1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiBai2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiBai3 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,13 +56,6 @@
             this.trầnNguyễnTuấnAnhToolStripMenuItem.Size = new System.Drawing.Size(142, 20);
             this.trầnNguyễnTuấnAnhToolStripMenuItem.Text = "Trần Nguyễn Tuấn Anh";
             // 
-            // tsmiBai3
-            // 
-            this.tsmiBai3.Image = global::BaiTapThietKeForm.Properties.Resources.note3;
-            this.tsmiBai3.Name = "tsmiBai3";
-            this.tsmiBai3.Size = new System.Drawing.Size(180, 22);
-            this.tsmiBai3.Text = "Bài 3";
-            // 
             // tsmiBai1
             // 
             this.tsmiBai1.Image = global::BaiTapThietKeForm.Properties.Resources.note1;
@@ -77,6 +70,13 @@
             this.tsmiBai2.Size = new System.Drawing.Size(180, 22);
             this.tsmiBai2.Text = "Bài 2";
             // 
+            // tsmiBai3
+            // 
+            this.tsmiBai3.Image = global::BaiTapThietKeForm.Properties.Resources.note3;
+            this.tsmiBai3.Name = "tsmiBai3";
+            this.tsmiBai3.Size = new System.Drawing.Size(180, 22);
+            this.tsmiBai3.Text = "Bài 3";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -85,7 +85,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Chương trình chính";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
