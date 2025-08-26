@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtTen = new System.Windows.Forms.TextBox();
+            this.btnOK = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -48,11 +49,21 @@
             this.txtTen.Size = new System.Drawing.Size(361, 20);
             this.txtTen.TabIndex = 1;
             // 
+            // btnOK
+            // 
+            this.btnOK.Location = new System.Drawing.Point(353, 142);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(75, 23);
+            this.btnOK.TabIndex = 2;
+            this.btnOK.Text = "Xử lý";
+            this.btnOK.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnOK);
             this.Controls.Add(this.txtTen);
             this.Controls.Add(this.label1);
             this.Name = "MainForm";
@@ -66,6 +77,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtTen;
+        private System.Windows.Forms.Button btnOK;
     }
 }
 
