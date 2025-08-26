@@ -135,6 +135,7 @@
             this.btnTinhTien.TabIndex = 4;
             this.btnTinhTien.Text = "Tính Tiền";
             this.btnTinhTien.UseVisualStyleBackColor = true;
+            this.btnTinhTien.Click += new System.EventHandler(this.btnTinhTien_Click);
             // 
             // label3
             // 

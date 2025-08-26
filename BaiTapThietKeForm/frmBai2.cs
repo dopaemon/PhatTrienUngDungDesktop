@@ -27,5 +27,30 @@ namespace BaiTapThietKeForm
         {
             listBox2.Items.Remove(listBox2.SelectedItem);
         }
+
+        private void btnTinhTien_Click(object sender, EventArgs e)
+        {
+            int soTien = 0;
+            foreach (string hang in listBox2.Items) {
+                switch(hang) {
+                    case "Chuột":
+                        soTien += 100000;
+                        break;
+                    case "Bàn phím":
+                        soTien += 150000;
+                        break;
+                    case "Máy in":
+                        soTien += 200000;
+                        break;
+                    case "USB Kingmax":
+                        soTien += 200000;
+                        break;
+                    default:
+                        break;
+                }
+
+                lblSoTien.Text = soTien + " đồng";
+            }
+        }
     }
 }
