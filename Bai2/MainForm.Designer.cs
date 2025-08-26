@@ -55,6 +55,7 @@
             this.rdNu.TabStop = true;
             this.rdNu.Text = "Nữ";
             this.rdNu.UseVisualStyleBackColor = true;
+            this.rdNu.CheckedChanged += new System.EventHandler(this.rdNu_CheckedChanged);
             // 
             // rdNam
             // 

@@ -21,5 +21,10 @@ namespace Bai2
         {
             MessageBox.Show("Bạn đã chọn giới tính Nam", "Thông báo");
         }
+
+        private void rdNu_CheckedChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bạn đã chọn giới tính Nữ", "Thông báo");
+        }
     }
 }
