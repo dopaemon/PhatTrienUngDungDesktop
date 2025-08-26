@@ -96,6 +96,7 @@
             this.btnChonHang.TabIndex = 2;
             this.btnChonHang.Text = "Chọn hàng >";
             this.btnChonHang.UseVisualStyleBackColor = true;
+            this.btnChonHang.Click += new System.EventHandler(this.btnChonHang_Click);
             // 
             // label2
             // 

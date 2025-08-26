@@ -16,5 +16,11 @@ namespace BaiTapThietKeForm
         {
             InitializeComponent();
         }
+
+        private void btnChonHang_Click(object sender, EventArgs e)
+        {
+            var item = listBox1.SelectedItem;
+            listBox2.Items.Add(item);
+        }
     }
 }
