@@ -36,7 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtHienThi = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -104,24 +104,25 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(43, 195);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.Size = new System.Drawing.Size(138, 95);
             this.listBox1.TabIndex = 7;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
-            // textBox3
+            // txtHienThi
             // 
-            this.textBox3.Location = new System.Drawing.Point(226, 195);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(136, 95);
-            this.textBox3.TabIndex = 8;
+            this.txtHienThi.Location = new System.Drawing.Point(226, 195);
+            this.txtHienThi.Multiline = true;
+            this.txtHienThi.Name = "txtHienThi";
+            this.txtHienThi.ReadOnly = true;
+            this.txtHienThi.Size = new System.Drawing.Size(138, 95);
+            this.txtHienThi.TabIndex = 8;
             // 
             // frmBai3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(408, 316);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtHienThi);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -147,6 +148,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtHienThi;
     }
 }
