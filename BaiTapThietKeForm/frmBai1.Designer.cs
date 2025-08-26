@@ -30,9 +30,18 @@
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rdDo = new System.Windows.Forms.RadioButton();
-            this.rdXanh = new System.Windows.Forms.RadioButton();
             this.rdTrang = new System.Windows.Forms.RadioButton();
+            this.rdXanh = new System.Windows.Forms.RadioButton();
+            this.rdDo = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtDonGia = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtSoLuong = new System.Windows.Forms.TextBox();
+            this.btnTinhTien = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblSoTien = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -53,33 +62,10 @@
             this.groupBox1.Controls.Add(this.rdDo);
             this.groupBox1.Location = new System.Drawing.Point(480, 102);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(240, 258);
+            this.groupBox1.Size = new System.Drawing.Size(240, 186);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chọn màu xe";
-            // 
-            // rdDo
-            // 
-            this.rdDo.AutoSize = true;
-            this.rdDo.Checked = true;
-            this.rdDo.Location = new System.Drawing.Point(46, 48);
-            this.rdDo.Name = "rdDo";
-            this.rdDo.Size = new System.Drawing.Size(39, 17);
-            this.rdDo.TabIndex = 0;
-            this.rdDo.TabStop = true;
-            this.rdDo.Text = "Đỏ";
-            this.rdDo.UseVisualStyleBackColor = true;
-            // 
-            // rdXanh
-            // 
-            this.rdXanh.AutoSize = true;
-            this.rdXanh.Location = new System.Drawing.Point(46, 96);
-            this.rdXanh.Name = "rdXanh";
-            this.rdXanh.Size = new System.Drawing.Size(50, 17);
-            this.rdXanh.TabIndex = 1;
-            this.rdXanh.TabStop = true;
-            this.rdXanh.Text = "Xanh";
-            this.rdXanh.UseVisualStyleBackColor = true;
             // 
             // rdTrang
             // 
@@ -88,15 +74,131 @@
             this.rdTrang.Name = "rdTrang";
             this.rdTrang.Size = new System.Drawing.Size(53, 17);
             this.rdTrang.TabIndex = 2;
-            this.rdTrang.TabStop = true;
             this.rdTrang.Text = "Trắng";
             this.rdTrang.UseVisualStyleBackColor = true;
+            // 
+            // rdXanh
+            // 
+            this.rdXanh.AutoSize = true;
+            this.rdXanh.Checked = true;
+            this.rdXanh.Location = new System.Drawing.Point(46, 50);
+            this.rdXanh.Name = "rdXanh";
+            this.rdXanh.Size = new System.Drawing.Size(50, 17);
+            this.rdXanh.TabIndex = 1;
+            this.rdXanh.TabStop = true;
+            this.rdXanh.Text = "Xanh";
+            this.rdXanh.UseVisualStyleBackColor = true;
+            // 
+            // rdDo
+            // 
+            this.rdDo.AutoSize = true;
+            this.rdDo.Location = new System.Drawing.Point(46, 99);
+            this.rdDo.Name = "rdDo";
+            this.rdDo.Size = new System.Drawing.Size(39, 17);
+            this.rdDo.TabIndex = 0;
+            this.rdDo.Text = "Đỏ";
+            this.rdDo.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(477, 305);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(61, 17);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Đơn giá:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(477, 334);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 17);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Số lượng:";
+            // 
+            // txtDonGia
+            // 
+            this.txtDonGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDonGia.Location = new System.Drawing.Point(544, 302);
+            this.txtDonGia.Name = "txtDonGia";
+            this.txtDonGia.Size = new System.Drawing.Size(144, 23);
+            this.txtDonGia.TabIndex = 4;
+            this.txtDonGia.Text = "22000";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(694, 305);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(16, 17);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "$";
+            // 
+            // txtSoLuong
+            // 
+            this.txtSoLuong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoLuong.Location = new System.Drawing.Point(544, 331);
+            this.txtSoLuong.Name = "txtSoLuong";
+            this.txtSoLuong.Size = new System.Drawing.Size(144, 23);
+            this.txtSoLuong.TabIndex = 6;
+            // 
+            // btnTinhTien
+            // 
+            this.btnTinhTien.Location = new System.Drawing.Point(544, 368);
+            this.btnTinhTien.Name = "btnTinhTien";
+            this.btnTinhTien.Size = new System.Drawing.Size(144, 23);
+            this.btnTinhTien.TabIndex = 7;
+            this.btnTinhTien.Text = "Tính tiền";
+            this.btnTinhTien.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(477, 411);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(176, 17);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Tổng tiền hàng thanh toán";
+            // 
+            // lblSoTien
+            // 
+            this.lblSoTien.AutoSize = true;
+            this.lblSoTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoTien.Location = new System.Drawing.Point(659, 411);
+            this.lblSoTien.Name = "lblSoTien";
+            this.lblSoTien.Size = new System.Drawing.Size(16, 17);
+            this.lblSoTien.TabIndex = 9;
+            this.lblSoTien.Text = "0";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(752, 411);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(16, 17);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "$";
             // 
             // frmBai1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblSoTien);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.btnTinhTien);
+            this.Controls.Add(this.txtSoLuong);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtDonGia);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "frmBai1";
@@ -105,6 +207,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -115,5 +218,14 @@
         private System.Windows.Forms.RadioButton rdTrang;
         private System.Windows.Forms.RadioButton rdXanh;
         private System.Windows.Forms.RadioButton rdDo;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtDonGia;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtSoLuong;
+        private System.Windows.Forms.Button btnTinhTien;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblSoTien;
+        private System.Windows.Forms.Label label5;
     }
 }
