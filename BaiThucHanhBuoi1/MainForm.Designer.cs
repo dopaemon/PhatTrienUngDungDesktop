@@ -75,6 +75,7 @@
             // 
             this.txtSaoChep.Location = new System.Drawing.Point(239, 185);
             this.txtSaoChep.Name = "txtSaoChep";
+            this.txtSaoChep.ReadOnly = true;
             this.txtSaoChep.Size = new System.Drawing.Size(361, 20);
             this.txtSaoChep.TabIndex = 4;
             // 

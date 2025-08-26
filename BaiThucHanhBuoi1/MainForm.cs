@@ -26,7 +26,7 @@ namespace BaiThucHanhBuoi1
 
         private void btnSaoChep_Click(object sender, EventArgs e)
         {
-
+            txtSaoChep.Text = txtTen.Text;
         }
     }
 }
