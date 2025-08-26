@@ -51,6 +51,7 @@
             this.txtTen.Name = "txtTen";
             this.txtTen.Size = new System.Drawing.Size(361, 20);
             this.txtTen.TabIndex = 1;
+            this.txtTen.TextChanged += new System.EventHandler(this.txtTen_TextChanged);
             // 
             // btnOK
             // 

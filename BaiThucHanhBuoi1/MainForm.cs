@@ -28,5 +28,10 @@ namespace BaiThucHanhBuoi1
         {
             txtSaoChep.Text = txtTen.Text;
         }
+
+        private void txtTen_TextChanged(object sender, EventArgs e)
+        {
+            txtSaoChep.Text = txtTen.Text;
+        }
     }
 }
