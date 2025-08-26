@@ -3,8 +3,6 @@
 * [**BaiTapThucHanhBuoi1**](https://github.com/dopaemon/PhatTrienUngDungDesktop/tree/BaiThucHanhBuoi1)
 * [**BaiTapThietKeForm**](https://github.com/dopaemon/PhatTrienUngDungDesktop/tree/BaiTapThietKeForm)
 
-* [**Release**](https://github.com/dopaemon/PhatTrienUngDungDesktop/releases)
-
 ## Infomation
 * **Tên:** Trần Nguyễn Tuấn Anh
 * **MSSV:** 2312577
