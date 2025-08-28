@@ -63,7 +63,7 @@
             this.tsbBai2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbBai2.Name = "tsbBai2";
             this.tsbBai2.Size = new System.Drawing.Size(66, 28);
-            this.tsbBai2.Text = "Bài 1";
+            this.tsbBai2.Text = "Bài 2";
             this.tsbBai2.ToolTipText = "Bài 2";
             // 
             // tsbBai3
