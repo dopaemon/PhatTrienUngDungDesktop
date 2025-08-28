@@ -16,5 +16,11 @@ namespace BaiTapWindowsForm
         {
             InitializeComponent();
         }
+
+        private void tsbBai1_Click(object sender, EventArgs e)
+        {
+            var form = new frmBai1();
+            form.ShowDialog();
+        }
     }
 }

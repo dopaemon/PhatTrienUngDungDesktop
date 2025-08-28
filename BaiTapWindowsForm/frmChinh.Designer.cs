@@ -37,13 +37,14 @@
             // 
             // toolStrip1
             // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsbBai1,
             this.tsbBai2,
             this.tsbBai3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(692, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(923, 31);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -52,15 +53,16 @@
             this.tsbBai1.Image = global::BaiTapWindowsForm.Properties.Resources.note2;
             this.tsbBai1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbBai1.Name = "tsbBai1";
-            this.tsbBai1.Size = new System.Drawing.Size(52, 22);
+            this.tsbBai1.Size = new System.Drawing.Size(66, 28);
             this.tsbBai1.Text = "Bài 1";
+            this.tsbBai1.Click += new System.EventHandler(this.tsbBai1_Click);
             // 
             // tsbBai2
             // 
             this.tsbBai2.Image = global::BaiTapWindowsForm.Properties.Resources.note1;
             this.tsbBai2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbBai2.Name = "tsbBai2";
-            this.tsbBai2.Size = new System.Drawing.Size(52, 22);
+            this.tsbBai2.Size = new System.Drawing.Size(66, 28);
             this.tsbBai2.Text = "Bài 1";
             this.tsbBai2.ToolTipText = "Bài 2";
             // 
@@ -69,15 +71,16 @@
             this.tsbBai3.Image = global::BaiTapWindowsForm.Properties.Resources.note3;
             this.tsbBai3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbBai3.Name = "tsbBai3";
-            this.tsbBai3.Size = new System.Drawing.Size(52, 22);
+            this.tsbBai3.Size = new System.Drawing.Size(66, 28);
             this.tsbBai3.Text = "Bài 3";
             // 
             // frmChinh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(692, 382);
+            this.ClientSize = new System.Drawing.Size(923, 470);
             this.Controls.Add(this.toolStrip1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmChinh";
             this.Text = "Chương trình chính";
             this.toolStrip1.ResumeLayout(false);
