@@ -35,5 +35,18 @@ namespace BaiTapWindowsForm
                     break;
             }
         }
+
+        private void btnTinhTien_Click(object sender, EventArgs e)
+        {
+            int donGia = int.Parse(txtDonGia.Text);
+            int soLuong = int.Parse(txtSoLuong.Text);
+            double thanhTien = donGia * soLuong;
+
+            if (rdChuyenKhoan.Checked) {
+                thanhTien = donGia * soLuong * 0.95;
+            }
+
+            lblSoTienThanhToan.Text = thanhTien.ToString();
+        }
     }
 }
