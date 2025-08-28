@@ -22,6 +22,15 @@ namespace BaiTapWindowsForm
             int a = int.Parse(txtSoA.Text);
             int b = int.Parse(txtSoB.Text);
             int n = int.Parse(txtSoN.Text);
+            int kq = 0;
+
+            if (rdTinhSoTongAB.Checked) {
+                TinhToan.CongHaiSo(a, b, ref kq);
+            } else {
+                TinhToan.TongDaySo(n);
+            }
+
+            lblKetQua.Text = kq.ToString();
         }
     }
 }
