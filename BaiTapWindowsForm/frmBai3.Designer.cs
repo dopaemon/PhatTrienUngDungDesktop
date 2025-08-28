@@ -33,11 +33,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtSoA = new System.Windows.Forms.TextBox();
             this.txtSoB = new System.Windows.Forms.TextBox();
-            this.txtSoC = new System.Windows.Forms.TextBox();
+            this.txtSoN = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.rdTinhSoTongAB = new System.Windows.Forms.RadioButton();
             this.rdTinhSoTong1n = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnXemKQ = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.lblKetQua = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -59,7 +59,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 16);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Số c = ";
+            this.label2.Text = "Số n = ";
             // 
             // label3
             // 
@@ -86,13 +86,13 @@
             this.txtSoB.TabIndex = 4;
             this.txtSoB.Text = "0";
             // 
-            // txtSoC
+            // txtSoN
             // 
-            this.txtSoC.Location = new System.Drawing.Point(103, 106);
-            this.txtSoC.Name = "txtSoC";
-            this.txtSoC.Size = new System.Drawing.Size(149, 22);
-            this.txtSoC.TabIndex = 5;
-            this.txtSoC.Text = "0";
+            this.txtSoN.Location = new System.Drawing.Point(103, 106);
+            this.txtSoN.Name = "txtSoN";
+            this.txtSoN.Size = new System.Drawing.Size(149, 22);
+            this.txtSoN.TabIndex = 5;
+            this.txtSoN.Text = "0";
             // 
             // groupBox1
             // 
@@ -127,14 +127,15 @@
             this.rdTinhSoTong1n.Text = "Tính số tổng 1 -> n";
             this.rdTinhSoTong1n.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnXemKQ
             // 
-            this.button1.Location = new System.Drawing.Point(52, 258);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 37);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Xem Kết Quả";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnXemKQ.Location = new System.Drawing.Point(52, 258);
+            this.btnXemKQ.Name = "btnXemKQ";
+            this.btnXemKQ.Size = new System.Drawing.Size(200, 37);
+            this.btnXemKQ.TabIndex = 7;
+            this.btnXemKQ.Text = "Xem Kết Quả";
+            this.btnXemKQ.UseVisualStyleBackColor = true;
+            this.btnXemKQ.Click += new System.EventHandler(this.btnXemKQ_Click);
             // 
             // label4
             // 
@@ -163,9 +164,9 @@
             this.ClientSize = new System.Drawing.Size(297, 376);
             this.Controls.Add(this.lblKetQua);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnXemKQ);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.txtSoC);
+            this.Controls.Add(this.txtSoN);
             this.Controls.Add(this.txtSoB);
             this.Controls.Add(this.txtSoA);
             this.Controls.Add(this.label3);
@@ -187,11 +188,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtSoA;
         private System.Windows.Forms.TextBox txtSoB;
-        private System.Windows.Forms.TextBox txtSoC;
+        private System.Windows.Forms.TextBox txtSoN;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton rdTinhSoTong1n;
         private System.Windows.Forms.RadioButton rdTinhSoTongAB;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnXemKQ;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblKetQua;
     }

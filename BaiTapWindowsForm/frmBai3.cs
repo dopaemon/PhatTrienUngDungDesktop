@@ -16,5 +16,12 @@ namespace BaiTapWindowsForm
         {
             InitializeComponent();
         }
+
+        private void btnXemKQ_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txtSoA.Text);
+            int b = int.Parse(txtSoB.Text);
+            int n = int.Parse(txtSoN.Text);
+        }
     }
 }
