@@ -65,6 +65,7 @@
             this.tsbBai2.Size = new System.Drawing.Size(66, 28);
             this.tsbBai2.Text = "Bài 2";
             this.tsbBai2.ToolTipText = "Bài 2";
+            this.tsbBai2.Click += new System.EventHandler(this.tsbBai2_Click);
             // 
             // tsbBai3
             // 
