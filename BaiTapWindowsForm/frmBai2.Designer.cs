@@ -82,6 +82,7 @@
             this.cbbTenHang.Name = "cbbTenHang";
             this.cbbTenHang.Size = new System.Drawing.Size(224, 24);
             this.cbbTenHang.TabIndex = 3;
+            this.cbbTenHang.SelectedIndexChanged += new System.EventHandler(this.cbbTenHang_SelectedIndexChanged);
             // 
             // txtDonGia
             // 

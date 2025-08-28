@@ -16,5 +16,24 @@ namespace BaiTapWindowsForm
         {
             InitializeComponent();
         }
+
+        private void cbbTenHang_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var stt = cbbTenHang.SelectedIndex;
+
+            switch (stt) {
+                case 0:
+                    txtDonGia.Text = "100000";
+                    break;
+                case 1:
+                    txtDonGia.Text = "2000000";
+                    break;
+                case 2:
+                    txtDonGia.Text = "150000";
+                    break;
+                default:
+                    break;
+            }
+        }
     }
 }
