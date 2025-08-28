@@ -27,7 +27,7 @@ namespace BaiTapWindowsForm
             if (rdTinhSoTongAB.Checked) {
                 TinhToan.CongHaiSo(a, b, ref kq);
             } else {
-                TinhToan.TongDaySo(n);
+                kq = TinhToan.TongDaySo(n);
             }
 
             lblKetQua.Text = kq.ToString();
