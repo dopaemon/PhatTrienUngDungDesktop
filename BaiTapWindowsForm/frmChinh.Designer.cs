@@ -74,6 +74,7 @@
             this.tsbBai3.Name = "tsbBai3";
             this.tsbBai3.Size = new System.Drawing.Size(66, 28);
             this.tsbBai3.Text = "Bài 3";
+            this.tsbBai3.Click += new System.EventHandler(this.tsbBai3_Click);
             // 
             // frmChinh
             // 
